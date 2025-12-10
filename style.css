@@ -1,0 +1,62 @@
+
+
+h1{color: rgb(234, 189, 234) ; font-family: "Press Start 2P"; font-size: 26px; margin-top:-0.5px; margin-left:20px;}
+
+
+
+.calculator{position:relative;
+    width:320px; height:400px; background-image: url('calculator.PNG'); 
+    background-color: transparent;
+ background-repeat:no repeat;
+ background-size: contain;
+ background-position: center;
+ position: relative;
+ padding:10px;
+ border:none;
+ overflow: hidden;}
+
+#display{
+ width: 200px;
+ height:40px ;
+ background-color: transparent;
+ border: none; 
+ font-family: "Press Start 2P";
+ color:rgb(131, 55, 131) ;
+ margin-top: 30px;
+ margin-left: 62px;
+ }
+
+ button{
+ 
+ width: 40px;
+ height:40px;
+ border:none;
+ background-color: transparent;
+ background-image: url('button.PNG');
+ background-size: contain;
+ margin-right:30px;
+ margin-bottom: 8px;
+ margin-left: 2px;
+ color: rgb(131, 55, 131);
+ font-family: "Press Start 2P";
+ font-weight: bold;
+ cursor: pointer;
+ }
+
+.buttons{ position: absolute;
+    top:165px;
+    left: 30px;
+}
+
+button:hover{
+    background-image: url(button_dark.PNG);
+    background-size: contain;
+    background-color: transparent;
+
+}
+
+button:active{
+     background-image: url(button_darker.PNG);
+    background-size: contain;
+    background-color: transparent;
+}
