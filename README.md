@@ -6,4 +6,6 @@ FuN fAcT: I illustrated the whole thing myself <3
 
 Check it out here : https://maryy-g.github.io/my-calculator/
 
+
+Hope you like it 
 ByEe <3
